@@ -26,9 +26,9 @@ c.right = d;
  *  f    b        e
  */
 
-console.log('nb(nodes): ' + countNodes(c))
+// console.log('nb(nodes): ' + countNodes(c))
 // console.log('dft(c): ');
 // dft(c);
-// console.log('\nbft(c): ');
-// bft(c);
-console.log('node_in_tree : ' + tree_includes(c, 'b'));
+console.log('\ndft(c): ');
+dft(c);
+// console.log('node_in_tree : ' + tree_includes(c, 'b'));
